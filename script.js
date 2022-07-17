@@ -9,7 +9,7 @@ function Calculate(){
     //document.getElementById("tip").style.display = "block";
     document.getElementById("total").innerHTML = final_tip;
 }
-
+document.getElementById("tip").style.display = "none";
 document.getElementById("button").onclick = function (){
     //document.getElementById("total").innerHTML = "hello";
     Calculate();

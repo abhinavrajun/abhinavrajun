@@ -35,6 +35,7 @@ button{
 .tip > p{
     display: block;
     text-align: center;
+    margin-top: 0;
     width: 100%;
 }
 #heading {
@@ -55,4 +56,5 @@ form{
 #but{
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
 }
