@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <link rel="stylesheet" href="./styles.css">
+
+    </head>
+    <body>
+        <main>
+            <div id="heading">
+                <h1>Tip Calculator</h1>
+            </div>
+            <div id="calculate">
+                <form id="form">
+                    <label for="number">
+                        <p >Number of people: </p>
+                        <input id="number" name="num_people" type="number" min="1" required>
+                    </label>
+                    
+                    <label for="bill">
+                        Bill amount : 
+                        <input id="bill" name="bill" type="number" min="1" required>
+                    </label>
+                    
+                    <label for="tip%">
+                        <p>Tip percent :</p> <input id="tip%" name="tip%" type="number" min="1" required>
+                    </label>
+                    <div id="but"><button id="button" type="button">Calculate Tip</button></div>
+                    
+                </form>
+                <div class="tip">
+             
+ 
+ 
+                    <p>Tip Amount</p>
+                     
+                     
+                            <div id="output">
+                                $<span id="total"></span>
+                                <span id="each">each</span>
+                            </div>
+                                
+                </div>
+            </div>
+        </main>
+        <script  src="script.js">
+        </script>  
+    </body>
+</html>
