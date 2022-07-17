@@ -32,7 +32,7 @@ input{
 button{
     margin: 20px auto;
 }
-.tip > p{
+.tip > #output >p{
     display: block;
     text-align: center;
     margin-top: 0;
@@ -57,4 +57,9 @@ form{
     display: flex;
     justify-content: center;
     margin-bottom: 0;
+}
+.tip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
